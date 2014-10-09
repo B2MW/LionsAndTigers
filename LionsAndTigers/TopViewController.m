@@ -8,11 +8,17 @@
 
 #import "TopViewController.h"
 
+@interface <#class name#> : <#superclass#>
+
+@end
+
 @implementation TopViewController
 - (IBAction)onTopViewBarButtonPressed:(id)sender {
     [self.delegate topRevealButtonTapped];
 }
 
+-(void)topRevealButtonTapped{
 
+}
 
 @end
