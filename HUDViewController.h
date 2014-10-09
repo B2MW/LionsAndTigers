@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol HUDDelegate
+
+@end
 
 @interface HUDViewController : UIView
 
+@property id<HUDDelegate> delegate;
 @end

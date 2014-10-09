@@ -10,12 +10,10 @@
 
 @implementation HUDViewController
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (IBAction)lionsButtonTapped:(id)sender {
 }
-*/
+
+- (IBAction)tigersButtonTapped:(id)sender {
+}
 
 @end
